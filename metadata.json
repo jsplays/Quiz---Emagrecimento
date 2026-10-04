@@ -1,0 +1,6 @@
+{
+  "name": "Avaliação de Hábitos & Retenção de Verão",
+  "description": "Descubra em 45 segundos como pequenos ajustes na sua alimentação podem te ajudar a desinchar e ter mais disposição para o verão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
