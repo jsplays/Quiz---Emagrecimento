@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Clock, ShieldCheck, Sun, CheckCircle2, Sparkles, Activity } from 'lucide-react';
 import { LegalDisclaimer } from './LegalDisclaimer';
+import heroImage from '../assets/images/verao_lifestyle_hero_1791066089211.jpg';
 
 interface QuizWelcomeProps {
   onStart: () => void;
@@ -26,7 +27,7 @@ export const QuizWelcome: React.FC<QuizWelcomeProps> = ({ onStart }) => {
       {/* Hero Visual Container */}
       <div className="relative w-full aspect-[16/10] bg-slate-900 overflow-hidden">
         <img
-          src="/src/assets/images/verao_lifestyle_hero_1791066089211.jpg"
+          src={heroImage || '/images/verao_lifestyle_hero_1791066089211.jpg'}
           alt="Alimentação saudável e hábitos de verão"
           className="w-full h-full object-cover opacity-90"
           referrerPolicy="no-referrer"

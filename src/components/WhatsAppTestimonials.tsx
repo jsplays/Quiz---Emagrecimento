@@ -1,20 +1,23 @@
 import React from 'react';
 import { ShieldCheck } from 'lucide-react';
+import printPaula from '../assets/images/print_paula_portal.png';
+import printMariana from '../assets/images/print_mariana_biquini.png';
+import printCamila from '../assets/images/print_camila_doce.png';
 
 const PRINTS = [
   {
     id: 'print-paula',
-    src: '/src/assets/images/print_paula_portal.png',
+    src: printPaula || '/images/print_paula_portal.png',
     alt: 'Depoimento real WhatsApp sobre acesso prático pelo celular',
   },
   {
     id: 'print-mariana',
-    src: '/src/assets/images/print_mariana_biquini.png',
+    src: printMariana || '/images/print_mariana_biquini.png',
     alt: 'Depoimento real WhatsApp sobre desinchaço e biquíni no dia 15',
   },
   {
     id: 'print-camila',
-    src: '/src/assets/images/print_camila_doce.png',
+    src: printCamila || '/images/print_camila_doce.png',
     alt: 'Depoimento real WhatsApp sobre sobremesa fit sem açúcar',
   },
 ];

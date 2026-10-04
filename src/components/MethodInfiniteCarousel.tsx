@@ -1,5 +1,8 @@
 import React from 'react';
 import { Smartphone, Sparkles } from 'lucide-react';
+import mockupPrincipal from '../assets/images/mockup_protocolo_principal.webp';
+import mockupCardapio from '../assets/images/mockup_bonus_cardapio.webp';
+import mockupMarmita from '../assets/images/mockup_bonus_marmita.webp';
 
 interface MockupItem {
   id: string;
@@ -13,19 +16,19 @@ const MOCKUPS: MockupItem[] = [
     id: 'mockup-1',
     badge: 'GUIA PRINCIPAL',
     title: 'Protocolo Verão 42',
-    image: '/src/assets/images/mockup_protocolo_principal.webp',
+    image: mockupPrincipal || '/images/mockup_protocolo_principal.webp',
   },
   {
     id: 'mockup-2',
     badge: 'BÔNUS 1',
     title: 'Cardápio Rotativo 6 Semanas',
-    image: '/src/assets/images/mockup_bonus_cardapio.webp',
+    image: mockupCardapio || '/images/mockup_bonus_cardapio.webp',
   },
   {
     id: 'mockup-3',
     badge: 'BÔNUS 4',
     title: 'Guia Marmita Fit',
-    image: '/src/assets/images/mockup_bonus_marmita.webp',
+    image: mockupMarmita || '/images/mockup_bonus_marmita.webp',
   },
 ];
 
